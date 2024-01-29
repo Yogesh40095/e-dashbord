@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(124, 114, 120, 0.871);
+}
+.nav  li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+.nav  li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+}
+.nav{
+    background-color: rgb(4, 8, 9);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 50px;
+}
+h1{
+    align-items: center;
+    text-align: center;
+}
+.footer{
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+
+
+    height: 50px;
+    background-color: rgb(116, 122, 122);
+    
+}
+.register{
+    border: 2px solid black;
+    width: 400px;
+    align-items: center;
+    margin-left: 36%;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.imputBox{
+
+    display: block;
+    margin: 20px;
+   
+    padding: 8px;
+    width: 300px;
+}
+.btn{
+
+    margin-left: 40%;
+    padding: 8px;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    width: 100px;
+    cursor: pointer;
+    background-color: rgb(39, 89, 213);
+}
+.login{
+    border: 2px solid black;
+    width: 400px;
+    align-items: center;
+    margin-left: 36%;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.inlog{
+    display: block;
+    margin-left: 40px;
+    padding: 8px;
+    width: 300px;
+  
+}
+.logfrm{
+    margin: 10px;
+    width: 240px;
+    height: 30px;
+}
+.log-btn{
+    margin-left: 4%;
+    padding: 8px;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    width: 100px;
+    cursor: pointer;
+    background-color: rgb(39, 89, 213);
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    float: left;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 4px;
+    
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    position: absolute;
+    left: 35%;
+    top: 30px;
+}
+
+.nam{
+    margin-top: 15px;
+    height: 35px;
+}
+.pbtn{
+    margin-top: 15px;
+    height: 35px;
+    background-color: brown;
+    width: 140px;
+    font-weight: bold;
+    color: white;
+}
+.invalid{
+    color: rgb(171, 6, 6);
+    font-size: 12px;
+}
+.products{
+    background-color: rgb(44, 79, 79);
+    text-align: center;
+    margin-top: 0;
+    width: 97%;
+    margin-left: 20px;
+   height: auto;
+   padding-bottom: 10px;
+}
+.lia{
+    
+    display: inline-block;
+    border: 1px solid black;
+    padding: 5px;
+    width: 18%;
+    background-color: beige;
+    
+
+}
+.products ul{
+   margin: 0;
+   padding: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+.man li{
+    background-color: rgb(193, 193, 20);
+}
+.dbtn{
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
+.search{
+    width: 250px;
+    margin: 20px;
+    height: 25px;
+}
